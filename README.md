@@ -24,7 +24,10 @@ chmod +x ./eos-auto-update.sh
 ```
 
 2.  Rodar o script automaticamente no boot (opcional)
-```nano ~/.config/systemd/user/eos-auto-update.service
+```
+nano ~/.config/systemd/user/eos-auto-update.service
+```
+```
 [Unit]
 Description=Atualização automática do EndeavourOS
 After=network-online.target
